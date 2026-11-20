@@ -1,6 +1,6 @@
 # Janji
 
-Saya Ahmad Jazil Rizki dengan NIM 2501839 mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+Saya Ahmad Jadzil Rizki dengan NIM 2501839 mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ---
 
@@ -170,12 +170,12 @@ sequenceDiagram
 
 1. Nyalakan **Apache** dan **MySQL** di XAMPP (PHP 7.4 ke atas).
 2. Buka `localhost/phpmyadmin`, pilih tab **Import**, lalu import file `tp_mvc25.sql`. File ini membuat database `tp_mvc25` beserta tabel dan data awalnya.
-3. Salin seluruh folder `TP8DPBO2425C2` ke `C:\xampp\htdocs\`.
+3. Salin seluruh folder `TP8DPBO2526C2` ke `C:\xampp\htdocs\`.
 4. Jika user/password MySQL berbeda dari bawaan XAMPP, sesuaikan di `Project/config.php`.
 5. Buka di browser:
-   - `localhost/TP8DPBO2425C2/Project/` untuk halaman Lecturers
-   - `localhost/TP8DPBO2425C2/Project/departments.php` untuk halaman Departments
-   - `localhost/TP8DPBO2425C2/Project/courses.php` untuk halaman Courses
+   - `localhost/TP8DPBO2526C2/Project/` untuk halaman Lecturers
+   - `localhost/TP8DPBO2526C2/Project/departments.php` untuk halaman Departments
+   - `localhost/TP8DPBO2526C2/Project/courses.php` untuk halaman Courses
 
 ## Dokumentasi
 
