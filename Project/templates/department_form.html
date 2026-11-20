@@ -1,0 +1,24 @@
+<div class="col-lg-6 m-auto">
+  <form method="post" action="departments.php?action=DATA_ACTION">
+    <div class="card">
+      <div class="card-header DATA_HEADER_CLASS">
+        <h1 class="text-white text-center">DATA_JUDUL_FORM</h1>
+      </div>
+      <div class="card-body">
+        <input type="hidden" name="id" value="DATA_ID">
+
+        <label>NAME:</label>
+        <input type="text" name="name" value="DATA_NAME" class="form-control" required><br>
+
+        <label>CODE:</label>
+        <input type="text" name="code" value="DATA_CODE" class="form-control" maxlength="10" required><br>
+
+        <label>BUILDING:</label>
+        <input type="text" name="building" value="DATA_BUILDING" class="form-control"><br>
+
+        <button class="btn btn-success" type="submit">Submit</button>
+        <a class="btn btn-info" href="departments.php">Cancel</a>
+      </div>
+    </div>
+  </form>
+</div>

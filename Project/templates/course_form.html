@@ -1,0 +1,29 @@
+<div class="col-lg-6 m-auto">
+  <form method="post" action="courses.php?action=DATA_ACTION">
+    <div class="card">
+      <div class="card-header DATA_HEADER_CLASS">
+        <h1 class="text-white text-center">DATA_JUDUL_FORM</h1>
+      </div>
+      <div class="card-body">
+        <input type="hidden" name="id" value="DATA_ID">
+
+        <label>CODE:</label>
+        <input type="text" name="code" value="DATA_CODE" class="form-control" maxlength="20" required><br>
+
+        <label>NAME:</label>
+        <input type="text" name="name" value="DATA_NAME" class="form-control" required><br>
+
+        <label>CREDITS:</label>
+        <input type="number" name="credits" value="DATA_CREDITS" class="form-control" min="1" max="6" required><br>
+
+        <label>LECTURER:</label>
+        <select name="lecturer_id" class="form-select">
+          DATA_OPSI_LECTURER
+        </select><br>
+
+        <button class="btn btn-success" type="submit">Submit</button>
+        <a class="btn btn-info" href="courses.php">Cancel</a>
+      </div>
+    </div>
+  </form>
+</div>
