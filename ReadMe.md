@@ -58,7 +58,7 @@ Kedua foreign key memakai `ON DELETE SET NULL`. Artinya, jika sebuah departemen 
 ### Struktur Folder
 
 ```
-TP8DPBO2425C2/
+TP8DPBO2526C2/
 ├── Project/
 │   ├── assets/                      # Bootstrap (css & js)
 │   ├── controllers/
